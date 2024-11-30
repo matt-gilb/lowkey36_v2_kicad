@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d95d24f1-13b1-4ae2-8320-d08db88a51be")
+	(paper "USLetter")
+	(title_block
+		(title "LowKey36")
+		(date "2024-11-10")
+		(rev "2.0")
+		(company "mattgilbert.co")
+		(comment 1 "Matt Gilbert")
+	)
+	(lib_symbols)
+	(sheet
+		(at 138.43 17.78)
+		(size 127 149.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09d8dd66-8a72-45c3-9cb4-ff57b68b0975")
+		(property "Sheetname" "right-hand"
+			(at 138.43 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lk36-right.kicad_sch"
+			(at 138.43 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lowkey36"
+				(path "/d95d24f1-13b1-4ae2-8320-d08db88a51be"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 17.78)
+		(size 119.38 149.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c9b18ef-0397-4e35-bcbc-03f0d5604b73")
+		(property "Sheetname" "left-hand"
+			(at 13.97 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lk36-left.kicad_sch"
+			(at 13.97 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lowkey36"
+				(path "/d95d24f1-13b1-4ae2-8320-d08db88a51be"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
